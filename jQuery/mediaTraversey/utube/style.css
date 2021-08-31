@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    color: #666;
+    background: #e1e1e1 url();
+    font-size: 14px;
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+#container{
+    width: 740px;
+    background: #fff;
+    margin: auto;
+
+}
+.clearfix{
+    clear: both;
+}
+header{
+    padding: 3px 20px;
+    background: #f4f4f4;
+}
+header h1{
+    color: #000;
+    margin-bottom: 5px;
+}
+header span{
+    color: red;
+}
+section{
+    padding: 30px 20px 20px 20px;
+
+}
+footer{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+
+}
+#search-form{
+    display: block;
+    margin-bottom: 15px;
+}
+.fieldcontainer{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+#search-btn{
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+.search-field{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 45%;
+    padding: 11px 7px;
+    padding-right: 43px;
+    background: #fff;
+    color: #ccc;
+    border: 1px solid #c8c8c8;
+    font-size: 1.6em;
+    border-bottom-color: #d2e2d2;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0,1),0 0 0 6px #f0f0f0
+
+   
+
+}

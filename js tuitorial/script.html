@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contact_form">
+        <form name="contact" action="">
+          <fieldset>
+            <div class="input-box">
+            <label for="name" id="name_label">Name</label>
+            <input type="text" name="name" id="name" minlength="3" placeholder="Monty" class="text-input" required/>
+            </div>
+             
+            <div class="input-box">
+            <label for="email" id="email_label">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@tutsplus.com" class="text-input"/>
+            </div>
+             
+            <div class="input-box">
+            <label for="phone" id="phone_label">Phone</label>
+            <input type="tel" name="phone" id="phone" class="text-input" placeholder="856-261-9988"/>
+            </div>
+             
+            <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+          </fieldset>
+        </form>
+          <div class="greetings">
+          <h1>Contact US</h1>
+            <p>We are waiting to hear from you!</p>
+          </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
